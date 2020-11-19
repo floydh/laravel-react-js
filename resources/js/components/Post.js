@@ -38,10 +38,13 @@ class Posts extends Component {
           <div className="row justify-content-center">
             <div className="col-md-8">
               <div className="card text-center">
-                <div className="Posts">
-                  <div className="posts">
+                <div className="Post">
+                  <div className="post">
                     {posts}
                   </div>
+                </div>
+                <div className="go-home">
+                  <a href={'/'}>Home</a>
                 </div>
               </div>
             </div>

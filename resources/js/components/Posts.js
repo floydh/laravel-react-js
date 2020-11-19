@@ -24,11 +24,11 @@ class Posts extends Component {
   render() {
     let posts = this.state.posts.map((post, index) => {
       return (
-        <div className="projects__item" key={index}>
-          <figure className="projects__item-figure">
-            <img src={post._embedded.['wp:featuredmedia'][0].source_url} alt="" class="posts__item-img" />
+        <div className="posts__item card text-center" key={index}>
+          <figure className="posts__item-figure">
+            <img src={post._embedded.['wp:featuredmedia'][0].source_url} alt="" className="posts__item-img" />
           </figure>
-          <h3 class="posts__item-title"><a href={'post/' + post.slug}>{post.title.rendered}</a></h3>
+          <h3 className="posts__item-title"><a href={'post/' + post.slug}>{post.title.rendered}</a></h3>
         </div> 
       );
     });
@@ -37,12 +37,8 @@ class Posts extends Component {
         <div className="container mt-5">
           <div className="row justify-content-center">
             <div className="col-md-8">
-              <div className="card text-center">
-                <div className="Posts">
-                  <div className="posts">
-                    {posts}
-                  </div>
-                </div>
+              <div className="posts">
+                {posts}
               </div>
             </div>
           </div>

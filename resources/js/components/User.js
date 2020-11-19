@@ -7,9 +7,11 @@ function User() {
             <div className="row justify-content-center">
                 <div className="col-md-8">
                     <div className="card text-center">
-                        <div className="card-header"><h2>React Component in Laravel</h2></div>
+                        <div className="card-header"><h2>ReactJS Component in Laravel</h2></div>
 
-                        <div className="card-body">I'm a tiny ReactJS component in Laravel app!</div>
+                        <div className="card-body">
+                            <p>I'm a tiny ReactJS component in a Laravel 8 app using WordPress as a headless CMS!</p>
+                        </div>
                     </div>
                 </div>
             </div>

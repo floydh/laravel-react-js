@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.projects__item-figure {
+	display: block;
+	margin: 0 auto;
+}
+
+.projects__item-figure img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.post__item {
+	padding: 0 12px;
+}
+
+.post__item-figure {
+	display: block;
+	margin: 0 -12px;
+}
+
+.post__item-figure img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.post__item-title {
+	margin: 24px auto 12px;
+}
+
+.post__item-content {
+	text-align: left;
+}

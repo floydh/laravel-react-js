@@ -10903,34 +10903,44 @@ a.text-dark:focus {
   }
 }
 
-.projects__item-figure {
-  display: block;
-  margin: 0 auto;
+body {
+  padding-bottom: 80px;
 }
 
-.projects__item-figure img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
+.posts__item,
 .post__item {
   padding: 0 12px;
 }
 
+.posts__item:first-child {
+  margin-top: 0;
+}
+
+.posts__item {
+  margin-top: 40px;
+}
+
+.posts__item-figure,
 .post__item-figure {
   display: block;
   margin: 0 -12px;
 }
 
+.posts__item-figure img,
 .post__item-figure img {
   display: block;
   width: 100%;
   height: auto;
 }
 
+.posts__item-title,
 .post__item-title {
   margin: 24px auto 12px;
+}
+
+.posts__item-title {
+  margin-bottom: 0;
+  padding-bottom: 24px;
 }
 
 .post__item-content {

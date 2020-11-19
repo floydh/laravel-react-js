@@ -26,9 +26,9 @@ class Posts extends Component {
       return (
         <div className="projects__item" key={index}>
           <figure className="projects__item-figure">
-            <img src={post._embedded.['wp:featuredmedia'][0].source_url} alt="" />
+            <img src={post._embedded.['wp:featuredmedia'][0].source_url} alt="" class="posts__item-img" />
           </figure>
-          <h3><a href={'post/' + post.slug}>{post.title.rendered}</a></h3>
+          <h3 class="posts__item-title"><a href={'post/' + post.slug}>{post.title.rendered}</a></h3>
         </div> 
       );
     });
@@ -39,7 +39,6 @@ class Posts extends Component {
             <div className="col-md-8">
               <div className="card text-center">
                 <div className="Posts">
-                  <h1>Posts</h1>
                   <div className="posts">
                     {posts}
                   </div>

@@ -1,3 +1,3 @@
 <script type="text/javascript">
-	var slug = '{{ $slug }}';
+	var slug = "{{ $slug ?? '' }}";
 </script>

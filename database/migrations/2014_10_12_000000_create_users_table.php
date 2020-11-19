@@ -34,5 +34,3 @@ class CreateUsersTable extends Migration
         Schema::dropIfExists('users');
     }
 }
-
- Syntax error or access violation: 1071 Specified key was too long; max key length is 1000 bytes
